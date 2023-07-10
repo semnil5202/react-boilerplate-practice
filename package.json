@@ -1,0 +1,41 @@
+{
+  "name": "react-boilerplate-practice",
+  "version": "0.0.0",
+  "description": "react boilerplate practice without CRA",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --mode development --open --hot",
+    "build": "webpack --mode production",
+    "start": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semnil5202/react-boilerplate-practice.git"
+  },
+  "keywords": [],
+  "author": "se-een",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/semnil5202/react-boilerplate-practice/issues"
+  },
+  "homepage": "https://github.com/semnil5202/react-boilerplate-practice#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "ts-loader": "^9.4.4"
+  }
+}
